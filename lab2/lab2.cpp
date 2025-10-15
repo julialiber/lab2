@@ -1,16 +1,18 @@
 // lab2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+//zadnie1.1
 
 #include <iostream>
-
-int main()
-{
-    std::cout << "Hello World!\n";
-
-    std::cout << "Hello World!\n";
-    std::cout << "Hello World!\n";
+using namespace std;
+int main() {  
+    for (int i = 0; i <=10; i++) {
+        cout << i << endl; // wczesniej pojawialo sie od 0 do 9 a teraz od 0 do 10
+    }
+    cout << "Koniec programu" << endl;
 }
 
+ //zadanie 1.2 
+ 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
