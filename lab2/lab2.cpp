@@ -4,14 +4,35 @@
 
 #include <iostream>
 using namespace std;
-int main() {  
-    for (int i = 0; i <=10; i++) {
+int main() {
+    for (int i = 0; i <= 10; i++) {
         cout << i << endl; // wczesniej pojawialo sie od 0 do 9 a teraz od 0 do 10
     }
     cout << "Koniec programu" << endl;
 }
 
- //zadanie 1.2 
+//zadanie 1.2
+#include <iostream>
+using namespace std;
+int main() {
+    for (int i = 5; i < 7; i++) {
+        cout << i << endl;
+    }
+    for (int i = 5; i <= 7; i++) {
+        cout << i << endl;
+    }
+    cout << "Koniec programu" << endl;
+}
+
+//zadanie 1.3 
+#include <iostream>
+using namespace std;
+int main() {
+    for (int i = 0; i <=10; i++) {
+        
+        cout << i << endl; 
+    }
+    cout << "Koniec programu" << endl;
  
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
